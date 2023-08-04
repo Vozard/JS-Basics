@@ -1,4 +1,4 @@
-//   =>>> Comment out any other section before using
+//!   =>>> Comment out any other section before using/running the snippets
 
 
 // function expression
