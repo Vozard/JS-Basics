@@ -1,10 +1,14 @@
-/* // for loops
+//   =>>> Comment out any other section before using
 
-// for(let i = 0; i < 5; i++){
-//     console.log("in loop: ", i);
-// }
 
-// console.log("loop finished");
+// for loops
+
+for(let i = 0; i < 5; i++){
+    console.log("in loop: ", i);
+}
+
+console.log("loop finished");
+
 
 const names = ["shaun", "mario", "luigi"];
 
@@ -13,30 +17,28 @@ for (let i = 0; i < names.length; i++){
     let html = `<div>${names[i]}</div>`;
     console.log(html);
 }
- */
 
 
 
-/* // while loops
+
+// while loops
 
 const names = ["shaun", "mario", "luigi"];
 let i = 0;
 
-// while(i < 5){
-//     console.log("in loop: ", i);
-//     i++;
-// }
+while(i < 5){
+    console.log("in loop: ", i);
+    i++;
+}
 
 while(i < names.length){
     console.log(names[i]);
     i++;
 }
 
-console.log("loop ended"); */
+console.log("loop ended");
 
-
-
-/* // do while loops
+// do while loops
 
 let i = 3;
 
@@ -45,44 +47,47 @@ do{
     i++;
 } while(i <= 5);
 
-console.log("loop ended"); */
+console.log("loop ended");
 
 
 
 // if statements
-// const age = 20;5
+const age = 20;5
 
-// if(age > 20) {
-//     console.log("You are over 20 years old");
-// }
+if(age > 20) {
+    console.log("You are over 20 years old");
+}
 
-// const ninjas = ["shaun", "ryu", "chun-li", "yoshi"];
 
-// if(ninjas.length > 3){
-//     console.log("that's a lot of ninjas");
-// }
+const ninjas = ["shaun", "ryu", "chun-li", "yoshi"];
 
-// const password = "password";
+if(ninjas.length > 3){
+    console.log("that's a lot of ninjas");
+}
 
-// if(password.length >= 8){
-//     console.log("that password is long enough")
-// } 
 
+const password = "password";
+
+if(password.length >= 8){
+    console.log("that password is long enough")
+} 
 
 // else is statements
 
-// const password = "password";
+const password = "password";
 
-// if(password.length >= 12){
-//     console.log("that password is might strong")
-// } else if(password.length >= 8){
-//     console.log("that password is long enough");
-// } else{
-//     console.log("password is not long enough");
-// }
+if(password.length >= 12){
+    console.log("that password is might strong")
+} else if(password.length >= 8){
+    console.log("that password is long enough");
+} else{
+    console.log("password is not long enough");
+}
 
 
-/* // logical operators - OR || and AND &&
+
+
+// logical operators - OR || and AND &&
 
 const password = "p@ss123";
 
@@ -92,11 +97,10 @@ if(password.length >= 12 && password.includes("@")){
     console.log("that password is strong enough");
 } else{
     console.log("password is NOT strong enough");
-} */
+}
 
 
-
-/* // logical NOT (!)
+// logical NOT (!)
 
 let user = false;
 
@@ -105,11 +109,12 @@ if(!user){
 }
 
 console.log(!true);
-console.log(!false); */
+console.log(!false);
 
 
 
-/* // break and continue
+
+// break and continue
 
 const scores = [50, 25, 0, 30, 100, 20, 10];
 
@@ -125,11 +130,11 @@ for(let i = 0; i < scores.length; i++){
         console.log("you got the top score!");
         break;
     }
-} */
+}
 
 
 
-/* // switch statements
+// switch statements
 const grade = "X";
 
 switch(grade){
@@ -150,7 +155,7 @@ switch(grade){
         break;
     default:
         console.log("not a valid grade");
-} */
+}
 
 
 
